@@ -1,0 +1,39 @@
+### NumPyライブラリ 
+
+## install
+pip install numpy
+# PermissionError: [Errno 13] Permission denied: '/usr/lib64/python3.6/dist-packages/numpy-1.16.4.dist-info'
+
+pip install --upgrade pip
+# PermissionError: [Errno 13] Permission denied: '/usr/bin/pip'
+
+pip install --upgrade pip --user
+# Successfully installed pip-19.1.1
+
+pip install numpy --user
+# Successfully installed numpy-1.16.4
+
+## 読み込み
+import numpy as np
+
+##------
+
+### Matplotlibライブラリ
+
+## install
+pip install matplotlib --user
+# Successfully installed cycler-0.10.0 kiwisolver-1.1.0 matplotlib-3.1.1 pyparsing-2.4.0 python-dateutil-2.8.0
+
+## 組み込み
+import numpy as np
+import matplotlib.pyplot as plt
+
+...
+
+plt.savefig("sin.svg", format="svg", dpi=1200)
+
+# グラフ画像表示
+svg ファイルを右クリック --> Preview 
+
+
+

@@ -1,0 +1,5 @@
+print("データ型（組み込みデータ型）")
+print("10 : " + str(type(10)))
+print("2.718 : " + str(type(2.718)))
+print("'hello' : " + str(type('hello')))
+print("1 == 1 : " + str(type(1 == 1)))

@@ -1,0 +1,12 @@
+# インタプリタモード起動
+python
+>>> 命令
+# インタプリタモードを終了
+# Ctrl + D(Linux/Mac) or Ctrl + Z + Enter(Windows)
+
+# スクリプトファイルモードから起動
+python xx.py
+
+# matplotlib　によるグラフ表示
+svg ファイルを右クリック --> Preview 
+
